@@ -81,7 +81,7 @@ def predict(dataset, model, adj_matrix, device):
 
 
 if __name__ == '__main__':
-    label_list = ['AMP', 'ACP', 'ADP', 'AHP', 'AIP']
+    label_list = ['Acetylation', 'Sumoylation', 'Methylation', 'Crotonylation', 'Glycation','2-Hydroxyisobutyrylation','Malonylation','Succinylation','β-Hydroxybutyrylation']
     id2label = {i: label for i, label in enumerate(label_list)}
     sum_pred = []
     real_label = []
