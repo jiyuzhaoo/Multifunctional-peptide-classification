@@ -63,7 +63,7 @@ class TrainConfig:
             self.n_hidden = 128         # 隐藏层维度
             self.n_heads = 6            # 多头注意力机制的头数
 
-        self.num_labels = 5         # 标签数量
+        self.num_labels = 9         # 标签数量
         self.dropout = 0.2          # dropout
         self.alpha = 0.2            # LeakyReLU的斜率
         self.batch_size = 32        # 批大小
